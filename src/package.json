@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "slate-plugins-reproduction",
+  "description": "A simple sandbox to reproduce Slate Plugins issues in a pared down editor.",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "@styled-icons/boxicons-regular": "10.23.0",
+    "@styled-icons/foundation": "10.28.0",
+    "@styled-icons/material": "10.28.0",
+    "@tippyjs/react": "4.2.5",
+    "@udecode/slate-plugins": "1.0.0-next.32",
+    "@udecode/slate-plugins-test-utils": "1.0.0-alpha.18",
+    "faker": "4.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "show-keys": "1.1.1",
+    "slate": "0.60.11",
+    "slate-history": "0.60.11",
+    "slate-hyperscript": "0.60.11",
+    "slate-react": "0.60.11",
+    "styled-components": "5.2.3"
+  },
+  "devDependencies": {
+    "typescript": "3.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
